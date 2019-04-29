@@ -4,3 +4,4 @@ RUN pip install -q PyYAML
 RUN pip install scikit-image
 RUN pip install tensorflow==1.10.0
 RUN pip install keras==2.2.4
+RUN pip install h5py==2.8.0
