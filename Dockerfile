@@ -5,3 +5,6 @@ RUN pip install scikit-image
 RUN pip install tensorflow==1.10.0
 RUN pip install keras==2.2.4
 RUN pip install h5py==2.8.0
+RUN pip install opencv-python
+RUN pip install -I torch==1.0.0
+RUN pip install torchvision==0.2.1
